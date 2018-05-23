@@ -1,12 +1,8 @@
-import logging
 import pythonwhois
 from telegram.ext import Updater,CommandHandler,MessageHandler
 from datetime import datetime,timedelta
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
 
-logger = logging.getLogger(__name__)
 domains = ['aban.solutions','tasbih.audio','hamrahang.com','hamrahang.ir','roozarooz.com','roozarooz.news','roozarooz.ir','radioactive.one','avano.audio','adologic.io','noise.reviews','aban.mobi']
 
 def wellcome (bot,update):
