@@ -1,1 +1,1 @@
-web : python jobQueueTest.python
+web : python jobQueueTest.py
